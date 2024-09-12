@@ -1,0 +1,29 @@
+
+
+
+  /* About.css */
+
+.links line {
+    stroke: #ffffff;
+    stroke-opacity: 1;
+  }
+  
+  .nodes circle {
+    fill: #ffffff;
+    stroke-width: 0;
+  }
+  
+  .labels text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: white;
+  }
+  
+  .header-label {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .d-flex {
+    padding: 0;
+  }

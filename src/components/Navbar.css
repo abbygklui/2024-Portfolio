@@ -1,0 +1,36 @@
+/* src/App.css */
+
+.navbar {
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  z-index: 5;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  /* font-weight: bold; */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: grey;
+}
+.navbar-light .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav .navbar-item {
+  margin-right: auto;
+}
+
+.navbar-nav .navbar-item:last-child {
+  margin-right: 0;
+}
