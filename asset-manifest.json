@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/2024-Portfolio/static/css/main.c8ee9a10.css",
-    "main.js": "/2024-Portfolio/static/js/main.e7e33fe3.js",
+    "main.css": "/2024-Portfolio/static/css/main.ab0233ce.css",
+    "main.js": "/2024-Portfolio/static/js/main.1a73141d.js",
     "static/js/488.ea47c984.chunk.js": "/2024-Portfolio/static/js/488.ea47c984.chunk.js",
     "static/media/lockscreen.mov": "/2024-Portfolio/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/2024-Portfolio/static/media/article.bc2803d8041d41d8e524.mov",
@@ -28,12 +28,12 @@
     "static/media/NeueHaasUnicaW1G-Regular.woff": "/2024-Portfolio/static/media/NeueHaasUnicaW1G-Regular.73b9b9d544949bddece3.woff",
     "static/media/img3.png": "/2024-Portfolio/static/media/img3.8f9157d5e626a192d0d6.png",
     "index.html": "/2024-Portfolio/index.html",
-    "main.c8ee9a10.css.map": "/2024-Portfolio/static/css/main.c8ee9a10.css.map",
-    "main.e7e33fe3.js.map": "/2024-Portfolio/static/js/main.e7e33fe3.js.map",
+    "main.ab0233ce.css.map": "/2024-Portfolio/static/css/main.ab0233ce.css.map",
+    "main.1a73141d.js.map": "/2024-Portfolio/static/js/main.1a73141d.js.map",
     "488.ea47c984.chunk.js.map": "/2024-Portfolio/static/js/488.ea47c984.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8ee9a10.css",
-    "static/js/main.e7e33fe3.js"
+    "static/css/main.ab0233ce.css",
+    "static/js/main.1a73141d.js"
   ]
 }
