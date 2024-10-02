@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Neue Haas Unica W1G';
+  src: url('./assets/NeueHaasUnica/NeueHaasUnicaW1G-Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica W1G';
+  src: url('./assets/NeueHaasUnica/NeueHaasUnicaW1G-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Neue Haas Unica W1G';
+  src: url('./assets/NeueHaasUnica/NeueHaasUnicaW1G-Light.woff') format('woff');
+  font-weight: light;
+}
+
 html, body {
   height: 100%;
   background: black;
@@ -11,6 +29,7 @@ canvas {
 body, h1, h2, h3, h4, h5, h6, p, a, div, span, li, td, th {
   text-align: left;
   color: #ffffff; 
+  font-family: 'Neue Haas Unica W1G', sans-serif;
 
 }
 
@@ -23,12 +42,23 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
+
 
 
 p {
   font-size: 1rem;
   color: #ffffff;
-  padding: 10px 0px;
+}
+
+.label p {
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+line-height: 1.5rem;
 }

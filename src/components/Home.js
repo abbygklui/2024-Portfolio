@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Home.css'; // Ensure you have this CSS file for custom styles
-import image1 from '../assets/img1.png';
+import vid1 from '../assets/ProxUI-Cover.mov';
 import image2 from '../assets/img2.png';
 import image3 from '../assets/img3.png';
 import image4 from '../assets/img4.png';
@@ -12,7 +12,7 @@ import image6 from '../assets/img6.png';
 const ParticleText = () => {
     const canvasRef = useRef(null);
     const mouseRef = useRef({ x: 0, y: 0 });
-    const attractionStrengthRef = useRef(0.3);
+    const attractionStrengthRef = useRef(0.1);
     const mouseRadius = 1000; // Adjust this value to control proximity sensitivity
 
     useEffect(() => {
@@ -91,7 +91,7 @@ const ParticleText = () => {
 
         // Reset attraction strength to 0.3 on mouseup
         const mouseUpHandler = () => {
-            attractionStrengthRef.current = 0.3; // Reset attraction strength
+            attractionStrengthRef.current = 0.1; // Reset attraction strength
         };
 
         // Add event listeners for mouse down and up
@@ -168,43 +168,58 @@ const ParticleText = () => {
                 <Container>
                     <Row className="mt-5">
                         <Col md={4} className="text-center">
-                            <Link to="/project1">
-                                <img src={image1} alt="Project 1" className="img-fluid w-100" />
-                                <h5>Project 1 Title</h5>
+                            <Link to="/ProximityUI">
+                                <video src={vid1} className="img-fluid w-100" autoPlay loop muted>
+                                    Your browser does not support the video tag.
+                                </video>
+
+                                <h5>Proximity UI</h5>
+                                <div className="label">
+                                    <p>Research, Development(React), UI</p>
+                                </div>
+
                             </Link>
                         </Col>
                         <Col md={4} className="text-center">
-                            <Link to="/project2">
-                                <img src={image2} alt="Project 2" className="img-fluid w-100" />
-                                <h5>Project 2 Title</h5>
+                            <Link to="/Pangjai">
+                                <img src={image6} alt="Project 2" className="img-fluid w-100" />
+                                <h5>Hong Kong Pang Jai Fabric Market</h5>
+                                <div className="label">
+                                    <p>Research, Social Design</p>
+                                </div>
+
                             </Link>
                         </Col>
                         <Col md={4} className="text-center">
-                            <Link to="/project3">
+                            <Link to="/RBCTia">
                                 <img src={image3} alt="Project 3" className="img-fluid w-100" />
-                                <h5>Project 3 Title</h5>
+                                <h5>RBC - Tia the Tech Assistant</h5>
+                                <div className="label">
+                                    <p>UI/UX Design</p>
+                                </div>
+
                             </Link>
                         </Col>
                     </Row>
                     <Row className="mt-4">
-                        <Col md={4} className="text-center">
+                        {/* <Col md={4} className="text-center">
                             <Link to="/project4">
                                 <img src={image4} alt="Project 4" className="img-fluid w-100" />
-                                <h5>Project 4 Title</h5>
+                                <p>Proximity UI</p>
                             </Link>
                         </Col>
                         <Col md={4} className="text-center">
                             <Link to="/project5">
                                 <img src={image5} alt="Project 5" className="img-fluid w-100" />
-                                <h5>Project 5 Title</h5>
+                                <p>Proximity UI</p>
                             </Link>
-                        </Col>
-                        <Col md={4} className="text-center">
+                        </Col> */}
+                        {/* <Col md={4} className="text-center">
                             <Link to="/project6">
                                 <img src={image6} alt="Project 6" className="img-fluid w-100" />
-                                <h5>Project 6 Title</h5>
+                                <p>Proximity UI</p>
                             </Link>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </div>

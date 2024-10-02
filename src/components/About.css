@@ -5,25 +5,28 @@
 
 .links line {
     stroke: #ffffff;
-    stroke-opacity: 1;
+    stroke-opacity: 0.5;
   }
   
   .nodes circle {
     fill: #ffffff;
     stroke-width: 0;
+    fill-opacity: 0.5;
   }
   
   .labels text {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    font-size: 1.2rem;
     fill: white;
+    fill-opacity: 0.7;
   }
   
   .header-label {
-    font-weight: bold;
-    font-size: 14px;
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+    font-family: 'Neue Haas Unica W1G', sans-serif;
+    fill-opacity: 1 !important;
+    
   }
 
-  .d-flex {
-    padding: 0;
-  }
+  
