@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/2024-Portfolio/static/css/main.a00eb1cd.css",
-    "main.js": "/2024-Portfolio/static/js/main.3947ec61.js",
+    "main.js": "/2024-Portfolio/static/js/main.4e3d3ccd.js",
     "static/js/488.48a104bb.chunk.js": "/2024-Portfolio/static/js/488.48a104bb.chunk.js",
+    "static/media/GestureRecognition.mov": "/2024-Portfolio/static/media/GestureRecognition.e4e2ef3be6810e41240a.mov",
     "static/media/lockscreen.mov": "/2024-Portfolio/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/2024-Portfolio/static/media/article.bc2803d8041d41d8e524.mov",
     "static/media/final-1.png": "/2024-Portfolio/static/media/final-1.fe5d866e6b50645c912e.png",
@@ -10,10 +11,11 @@
     "static/media/cover-2.png": "/2024-Portfolio/static/media/cover-2.bb1c9087e472f35615dd.png",
     "static/media/cover-1.png": "/2024-Portfolio/static/media/cover-1.c6e7dceeecc29de6a6b9.png",
     "static/media/blink-demo.mov": "/2024-Portfolio/static/media/blink-demo.9280bf156059b0580a20.mov",
+    "static/media/demoui.mov": "/2024-Portfolio/static/media/demoui.81893554bb1de9e9c7eb.mov",
     "static/media/workshop2.png": "/2024-Portfolio/static/media/workshop2.caa224e95e759799bf05.png",
     "static/media/BlinkCamera-Cover.png": "/2024-Portfolio/static/media/BlinkCamera-Cover.4b7c35e201f01849be4a.png",
     "static/media/additionalprocess-5.png": "/2024-Portfolio/static/media/additionalprocess-5.a28d3caeb03620a39df6.png",
-    "static/media/cover.png": "/2024-Portfolio/static/media/cover.93b63dbc830e4ac46f28.png",
+    "static/media/cover.png": "/2024-Portfolio/static/media/cover.340b51814249df0f235b.png",
     "static/media/additionalprocess-4.png": "/2024-Portfolio/static/media/additionalprocess-4.b96d12f86a705da2b7fd.png",
     "static/media/final-2.png": "/2024-Portfolio/static/media/final-2.c4d15d42cf68aa4ad4f7.png",
     "static/media/additionalprocess-6.png": "/2024-Portfolio/static/media/additionalprocess-6.e49fbc6d1cab6d1cfe38.png",
@@ -55,6 +57,7 @@
     "static/media/legibilitytest-1.png": "/2024-Portfolio/static/media/legibilitytest-1.725255ee4149c9692be3.png",
     "static/media/directoryfeedback-3.png": "/2024-Portfolio/static/media/directoryfeedback-3.28508254f792c7091205.png",
     "static/media/directory-1.png": "/2024-Portfolio/static/media/directory-1.df3e191497461dfa5861.png",
+    "static/media/Thinking-Cover.png": "/2024-Portfolio/static/media/Thinking-Cover.600737fa46f31a8ebf1e.png",
     "static/media/color-3.png": "/2024-Portfolio/static/media/color-3.7c9c8d686368559b7bbf.png",
     "static/media/householdcomposition.png": "/2024-Portfolio/static/media/householdcomposition.d9bb91f5606fbe638c43.png",
     "static/media/history-2.png": "/2024-Portfolio/static/media/history-2.49cd9e90db3801ec086c.png",
@@ -93,8 +96,10 @@
     "static/media/design4exploration1.png": "/2024-Portfolio/static/media/design4exploration1.e00a49f978c94932f1d6.png",
     "static/media/design3closeicon.png": "/2024-Portfolio/static/media/design3closeicon.32bf7060d85871cccf16.png",
     "static/media/design3final.png": "/2024-Portfolio/static/media/design3final.96fd616ad7f69375f7b1.png",
+    "static/media/ToolCreationFlow.png": "/2024-Portfolio/static/media/ToolCreationFlow.a2b7ee5f2fd02d920654.png",
     "static/media/design3.png": "/2024-Portfolio/static/media/design3.e2c82de5c34da3df7e33.png",
     "static/media/design3refreshicon.png": "/2024-Portfolio/static/media/design3refreshicon.faef2f2265d1b00792ba.png",
+    "static/media/CreativeFlow.png": "/2024-Portfolio/static/media/CreativeFlow.f319d108cf8109043bc0.png",
     "static/media/design5exploration1.png": "/2024-Portfolio/static/media/design5exploration1.a82332ce4b9666ec88a3.png",
     "static/media/keytakeaway4.png": "/2024-Portfolio/static/media/keytakeaway4.56e8fc8aa410c40d9159.png",
     "static/media/cover2.png": "/2024-Portfolio/static/media/cover2.3693f61f59609903a363.png",
@@ -103,11 +108,11 @@
     "static/media/signagemockup-2.png": "/2024-Portfolio/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/2024-Portfolio/index.html",
     "main.a00eb1cd.css.map": "/2024-Portfolio/static/css/main.a00eb1cd.css.map",
-    "main.3947ec61.js.map": "/2024-Portfolio/static/js/main.3947ec61.js.map",
+    "main.4e3d3ccd.js.map": "/2024-Portfolio/static/js/main.4e3d3ccd.js.map",
     "488.48a104bb.chunk.js.map": "/2024-Portfolio/static/js/488.48a104bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a00eb1cd.css",
-    "static/js/main.3947ec61.js"
+    "static/js/main.4e3d3ccd.js"
   ]
 }
