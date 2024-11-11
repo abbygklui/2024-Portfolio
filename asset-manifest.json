@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/2024-Portfolio/static/css/main.a00eb1cd.css",
-    "main.js": "/2024-Portfolio/static/js/main.4e3d3ccd.js",
+    "main.js": "/2024-Portfolio/static/js/main.f2950626.js",
     "static/js/488.48a104bb.chunk.js": "/2024-Portfolio/static/js/488.48a104bb.chunk.js",
-    "static/media/GestureRecognition.mov": "/2024-Portfolio/static/media/GestureRecognition.e4e2ef3be6810e41240a.mov",
     "static/media/lockscreen.mov": "/2024-Portfolio/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/2024-Portfolio/static/media/article.bc2803d8041d41d8e524.mov",
     "static/media/final-1.png": "/2024-Portfolio/static/media/final-1.fe5d866e6b50645c912e.png",
     "static/media/ProxUI-Cover.mov": "/2024-Portfolio/static/media/ProxUI-Cover.4bf275173a212c670eb2.mov",
+    "static/media/demo-3-final.mov": "/2024-Portfolio/static/media/demo-3-final.63da2b7b46c9a1651534.mov",
     "static/media/cover-2.png": "/2024-Portfolio/static/media/cover-2.bb1c9087e472f35615dd.png",
     "static/media/cover-1.png": "/2024-Portfolio/static/media/cover-1.c6e7dceeecc29de6a6b9.png",
     "static/media/blink-demo.mov": "/2024-Portfolio/static/media/blink-demo.9280bf156059b0580a20.mov",
@@ -108,11 +108,11 @@
     "static/media/signagemockup-2.png": "/2024-Portfolio/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/2024-Portfolio/index.html",
     "main.a00eb1cd.css.map": "/2024-Portfolio/static/css/main.a00eb1cd.css.map",
-    "main.4e3d3ccd.js.map": "/2024-Portfolio/static/js/main.4e3d3ccd.js.map",
+    "main.f2950626.js.map": "/2024-Portfolio/static/js/main.f2950626.js.map",
     "488.48a104bb.chunk.js.map": "/2024-Portfolio/static/js/488.48a104bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a00eb1cd.css",
-    "static/js/main.4e3d3ccd.js"
+    "static/js/main.f2950626.js"
   ]
 }
