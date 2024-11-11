@@ -1,8 +1,7 @@
 .navbar {
-  padding: 1rem;
+  padding: 1rem 0rem;
   background-color: rgb(0, 0, 0);
   z-index: 5;
-  padding-left: 0px;
 }
 
 .navbar-list {
@@ -13,25 +12,30 @@
   justify-content: space-around;
 }
 
+
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(255, 255, 255); /* Default text color */
-  text-decoration: none ;
-  transition: color 0.3s ease; /* Smooth transition */
+  color: rgb(255, 255, 255);
+  /* Default text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* Smooth transition */
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   text-decoration: underline !important;
-  color: rgb(255, 255, 255); 
+  color: rgb(255, 255, 255);
 }
 
 
 .navbar-light .navbar-nav .nav-link:active {
-  color: lightgrey !important; /* Pressed (active) state, with higher priority */
+  color: lightgrey !important;
+  /* Pressed (active) state, with higher priority */
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:visited {
-  color: rgb(255, 255, 255); /* Ensure it stays white after click */
+  color: rgb(255, 255, 255);
+  /* Ensure it stays white after click */
 }
 
 .navbar-light .navbar-brand {
@@ -40,22 +44,29 @@
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:visited {
-  color: rgb(255, 255, 255); /* Ensure it stays white after click */
+  color: rgb(255, 255, 255);
+  /* Ensure it stays white after click */
 }
 
 .navbar-nav .navbar-item {
   margin-right: auto;
 }
 
-.navbar-nav .navbar-item:last-child {
+.navar .navbar-nav .navbar-item:last-child {
   margin-right: 0;
 }
 
-/* .navs{
-  padding: 0px !important;
+.navbar>.container {
+  padding: 0px 12px;
 }
 
-.container{
-  padding: 0px  !important;
+/* Style for the navbar collapse icon */
+.navbar-toggler {
+  border-color: white;
+  /* Changes the border of the toggle button to white */
 }
- */
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* This changes the icon to a white version */
+}

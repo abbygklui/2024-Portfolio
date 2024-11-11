@@ -6,7 +6,10 @@ import About from './components/About';
 import ProximityUI from './components/ProximityUI';
 import RBCTia from './components/RBCTia';
 import Pangjai from './components/Pangjai';
+import Quanne from './components/Quanne';
 import Navbar from './components/Navbar'; // Import the Navbar component
+import Blink from './components/Blink';
+import Thinking from './components/Thinking';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -21,6 +24,9 @@ function App() {
           <Route path="/ProximityUI" element={<ProximityUI />} />
           <Route path="/Pangjai" element={<Pangjai />} />
           <Route path="/RBCTia" element={<RBCTia />} />
+          <Route path="/Quanne" element={<Quanne />} />
+          <Route path="/Blink" element={<Blink />} />
+          <Route path="/Thinking" element={<Thinking />} />
         </Routes>
       </div>
     </Router>

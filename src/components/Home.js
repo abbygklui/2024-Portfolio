@@ -1,13 +1,14 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Home.css'; // Ensure you have this CSS file for custom styles
 import vid1 from '../assets/ProxUI-Cover.mov';
-import image2 from '../assets/img2.png';
-import image3 from '../assets/img3.png';
-import image4 from '../assets/img4.png';
-import image5 from '../assets/img5.png';
-import image6 from '../assets/img6.png';
+import tiacover from '../assets/Tia-Cover.png';
+import pangjaicover from '../assets/PangJai-Cover.png';
+import quannecover from '../assets/Quanne-Cover.png';
+import blinkcameracover from '../assets/BlinkCamera-Cover.png';
+import thinkingcover from '../assets/Thinking-Cover.png';
+
 
 const ParticleText = () => {
     const canvasRef = useRef(null);
@@ -15,19 +16,66 @@ const ParticleText = () => {
     const attractionStrengthRef = useRef(0.1);
     const mouseRadius = 1000; // Adjust this value to control proximity sensitivity
 
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const [showCanvas, setShowCanvas] = useState(true); // Manage canvas visibility
+
+    // Handle resize event to determine if the device is mobile
     useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const mouseDownHandler = () => {
+        attractionStrengthRef.current += -0.3; // Increase attraction strength
+    };
+
+    const mouseUpHandler = () => {
+        attractionStrengthRef.current = 0.1; // Reset attraction strength
+    };
+
+    const mouseMoveHandler = (event) => {
+        const rect = canvasRef.current.getBoundingClientRect();
+        mouseRef.current.x = event.clientX - rect.left;
+        mouseRef.current.y = event.clientY - rect.top;
+    };
+
+    useEffect(() => {
+        if (!showCanvas) return; // Skip the effect if the canvas is hidden or if on mobile
+
+
         const canvas = canvasRef.current;
         const ctx = canvas.getContext('2d');
-
-        // canvas.addEventListener('click', () => {
-        //     attractionStrengthRef.current = 10; // Increase attraction strength on each click
-        // });
-
 
         // Set canvas size
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
+        if (window.innerWidth < 768) {
+            canvas.width = 0;
+            canvas.height = 0;
+            return;
+
+        }
+
+
+
+
+        if (window.innerWidth > 768) {
+            canvas.width = 1024;
+
+        }
+
+        if (window.innerWidth > 1024) {
+            canvas.width = 1320;
+
+        }
         // Create an offscreen canvas for text rendering
         const bufferCanvas = document.createElement('canvas');
         const bufferCtx = bufferCanvas.getContext('2d');
@@ -39,20 +87,28 @@ const ParticleText = () => {
 
         const text = "HCI Explorer of Digital-Physical Experiences";
 
-        // Step 1: Draw the text on the offscreen buffer canvas
-        bufferCtx.font = '50px Arial';
+        // Step 1: Adjust the font size based on the canvas width
+        let fontSize = 40; // Default font size
+        if (canvas.width <= 1000) {
+            fontSize = 40; // Smaller font size for medium screens (tablet size)
+        }
+        if (canvas.width <= 800) {
+            fontSize = 40; // Even smaller font size for smaller screens
+        }
+
+        // Step 2: Draw the text on the offscreen buffer canvas
+        bufferCtx.font = `${fontSize}px Arial`;
         bufferCtx.fillStyle = 'white';
         bufferCtx.textAlign = 'center';
         const paddingTop = 150; // Adjust this value for the desired padding from the top
 
         bufferCtx.fillText(text, canvas.width / 2, paddingTop);
 
-
-        // Step 2: Get pixel data of the text from the buffer canvas
+        // Step 3: Get pixel data of the text from the buffer canvas
         const imageData = bufferCtx.getImageData(0, 0, canvas.width, canvas.height);
         const data = imageData.data;
 
-        // Step 3: Map particles to the text pixels and initialize them near their target
+        // Step 4: Map particles to the text pixels and initialize them near their target
         for (let y = 0; y < canvas.height; y += 4) {
             for (let x = 0; x < canvas.width; x += 4) {
                 const index = (y * canvas.width + x) * 4;
@@ -77,29 +133,9 @@ const ParticleText = () => {
             }
         }
 
-        // Track the mouse position on the canvas
-        const mouseMoveHandler = (event) => {
-            const rect = canvas.getBoundingClientRect();
-            mouseRef.current.x = event.clientX - rect.left;
-            mouseRef.current.y = event.clientY - rect.top;
-        };
-
-        // Increase attraction strength on mousedown
-        const mouseDownHandler = () => {
-            attractionStrengthRef.current += -0.3; // Increase attraction strength
-        };
-
-        // Reset attraction strength to 0.3 on mouseup
-        const mouseUpHandler = () => {
-            attractionStrengthRef.current = 0.1; // Reset attraction strength
-        };
-
         // Add event listeners for mouse down and up
         window.addEventListener('mousedown', mouseDownHandler);
         window.addEventListener('mouseup', mouseUpHandler);
-
-
-        // Listen for mouse movement
         window.addEventListener('mousemove', mouseMoveHandler);
 
         // Animation loop with mouse interaction
@@ -129,7 +165,6 @@ const ParticleText = () => {
 
                 }
 
-
                 // Update particle position based on its velocity
                 particle.x += particle.vx;
                 particle.y += particle.vy;
@@ -149,18 +184,20 @@ const ParticleText = () => {
             requestAnimationFrame(render); // Repeat the render process
         };
 
-        render(); // Start the animation
+        render(); // Start the animation loop
 
-        // Clean up event listener on unmount
         return () => {
+            window.removeEventListener('mousedown', mouseDownHandler);
+            window.removeEventListener('mouseup', mouseUpHandler);
             window.removeEventListener('mousemove', mouseMoveHandler);
         };
-    }, []);
+    }, [showCanvas, isMobile]);
 
-    // return <canvas ref={canvasRef}/>;
+
     return (
         <div className="background">
-            <canvas ref={canvasRef} />
+            {/* <Container> */}
+            {showCanvas && <canvas ref={canvasRef} />}
             {/* <div ref={mountRef} className="three-js-container" /> */}
 
             {/* Overlayed Bootstrap Container for Images and Titles */}
@@ -169,12 +206,21 @@ const ParticleText = () => {
                     <Row className="mt-5">
                         <Col md={4} className="text-center">
                             <Link to="/ProximityUI">
-                                <video src={vid1} className="img-fluid w-100" autoPlay loop muted>
+                                <video
+                                    src={vid1}
+                                    className="img-fluid w-100"
+                                    autoPlay
+                                    loop
+                                    muted
+                                    playsInline
+                                    webkit-playsinline="true" // For older iOS devices
+                                >
                                     Your browser does not support the video tag.
                                 </video>
 
-                                <h5>Proximity UI</h5>
-                                <div className="label">
+
+                                <div className="label text-content">
+                                    <h3>Proximity UI</h3>
                                     <p>Research, Development(React), UI</p>
                                 </div>
 
@@ -182,19 +228,21 @@ const ParticleText = () => {
                         </Col>
                         <Col md={4} className="text-center">
                             <Link to="/Pangjai">
-                                <img src={image6} alt="Project 2" className="img-fluid w-100" />
-                                <h5>Hong Kong Pang Jai Fabric Market</h5>
-                                <div className="label">
+                                <img src={pangjaicover} alt="Project 2" className="img-fluid w-100" />
+                                <div className="label text-content">
+                                    <h3>Hong Kong Pang Jai Fabric Market</h3>
+
                                     <p>Research, Social Design</p>
                                 </div>
 
                             </Link>
                         </Col>
-                        <Col md={4} className="text-center">
+                        <Col md={4} className="text-center ">
                             <Link to="/RBCTia">
-                                <img src={image3} alt="Project 3" className="img-fluid w-100" />
-                                <h5>RBC - Tia the Tech Assistant</h5>
-                                <div className="label">
+                                <img src={tiacover} alt="Project 3" className="img-fluid w-100" />
+                                <div className="label text-content">
+                                    <h3>RBC - Tia the Tech Assistant</h3>
+
                                     <p>UI/UX Design</p>
                                 </div>
 
@@ -202,27 +250,38 @@ const ParticleText = () => {
                         </Col>
                     </Row>
                     <Row className="mt-4">
-                        {/* <Col md={4} className="text-center">
-                            <Link to="/project4">
-                                <img src={image4} alt="Project 4" className="img-fluid w-100" />
-                                <p>Proximity UI</p>
+                        <Col md={4} className="text-center">
+                            <Link to="/quanne">
+                                <img src={quannecover} alt="Project 4" className="img-fluid w-100" />
+                                <h3>Designing a Serif Typeface for Modern Editorial Use</h3>
+                                {/* <h3>Quanne</h3> */}
+
+                                <p>Research, Typeface Design</p>
                             </Link>
                         </Col>
                         <Col md={4} className="text-center">
-                            <Link to="/project5">
-                                <img src={image5} alt="Project 5" className="img-fluid w-100" />
-                                <p>Proximity UI</p>
+                            <Link to="/Thinking">
+                                <img src={thinkingcover} alt="Project 4" className="img-fluid w-100" />
+                                <h3>Building an tool that uses AI to boost rather than disrupt creativity</h3>
+
+                                <p>Research, Development</p>
                             </Link>
-                        </Col> */}
-                        {/* <Col md={4} className="text-center">
-                            <Link to="/project6">
-                                <img src={image6} alt="Project 6" className="img-fluid w-100" />
-                                <p>Proximity UI</p>
+                        </Col>
+
+                        <Col md={4} className="text-center">
+                            <Link to="/Blink">
+                                <img src={blinkcameracover} alt="Project 4" className="img-fluid w-100" />
+                                <h3>Blink!</h3>
+                                {/* <h3>Quanne</h3> */}
+
+                                <p>Development(Python), Concept</p>
                             </Link>
-                        </Col> */}
+                        </Col>
+
                     </Row>
                 </Container>
             </div>
+            {/* </Container> */}
         </div>
     );
 };

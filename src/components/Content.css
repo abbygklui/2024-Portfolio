@@ -1,53 +1,80 @@
 /* Ensure container takes full viewport height */
 
 
-  
-  /* Left column styling */
-  .left-column {
-    position: relative;
-  }
-  
-  .fixed-content {
-    position: sticky;
-    top: 0;
-    padding-bottom: 20px;
-  }
-  
-  .top-left-image {
-    width: 100%; /* Ensures the image spans full column width */
-    margin-bottom: 20px;
-  }
 
-  .text-content {
-    padding: 1% 0px;
-  }
-  .large-content {
-    padding: 2% 0px;
-  }
+/* Left column styling */
+.left-column {
+  position: relative;
+}
+
+.fixed-content {
+  position: sticky;
+  top: 0;
+  padding-bottom: 20px;
+}
+
+.top-left-image {
+  width: 100%;
+  /* Ensures the image spans full column width */
+  margin-bottom: 20px;
+}
+
+.text-content {
+  padding: 1rem 0px;
+}
+
+.large-content {
+  padding: 3rem 0px;
+}
+
+.large-content-first {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+
+.scrolling-content {
+  margin-top: 6px;
+}
+
+.bottom-image {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Right column styling */
+.right-column {
+  padding-left: 20px;
+}
+
+.content {
+  padding-top: 5rem;
+}
+
+video,
+img {
+  margin: 0;
+  padding: 0rem 0px 0.5rem 0px;
+  display: block;
+  /* Prevent extra space around the elements */
+}
 
 
 
-  .scrolling-content {
-    margin-top: 6px;
-  }
-  
-  .bottom-image {
-    width: 100%;
-    margin-top: 20px;
-  }
-  
-  /* Right column styling */
-  .right-column {
-    padding-left: 20px;
-  }
-  
-  .content {
-    padding-top:5rem;
-  }
-  
-  video, img {
-    margin: 0;
-    padding: 0rem 0px 0.5rem 0px;
-    display: block; /* Prevent extra space around the elements */
-  }
-  
+
+.font-size-row {
+  display: flex;
+  align-items: flex-start;
+  /* Align text and size vertically */
+  margin-bottom: 1rem;
+  /* Space between the paragraphs */
+}
+
+.font-size-label {
+  width: 12rem;
+  /* Fixed width for the label to ensure consistent alignment */
+  margin-right: 2rem;
+
+  /* Space between the size label and the text */
+
+}

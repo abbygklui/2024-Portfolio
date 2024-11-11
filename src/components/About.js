@@ -8,10 +8,18 @@ function About() {
     const svgRef = useRef(null);
 
     useEffect(() => {
-        const svg = d3.select(svgRef.current);
-        const width = window.innerWidth / 2; // Adjust width for the graph (half of the screen)
-        const height = window.innerHeight;
+        let svg = d3.select(svgRef.current);
+        let width = window.innerWidth / 2; // Adjust width for the graph (half of the screen)
+        let height = window.innerHeight;
+        let widthpadding = 200;  // Default to 200 for larger screens
+        let heightpadding = 50;  // Default to 50 for height padding
 
+        if (window.innerWidth < 768) {
+            width = window.innerWidth; // Make the width the full window width on smaller screens
+            height = window.innerHeight; // Height stays the same
+            widthpadding = 0; // Use smaller padding on mobile
+            heightpadding = 0;
+        }
         // Clear the SVG before drawing
         svg.selectAll('*').remove();
 
@@ -72,7 +80,7 @@ function About() {
 
         // Main force simulation for nodes and links
         const simulation = d3.forceSimulation(nodes)
-            .force("link", d3.forceLink(links).id(d => d.id).distance(2))  // Spread out linked nodes
+            .force("link", d3.forceLink(links).id(d => d.id).distance(-100))  // Spread out linked nodes
             .force("charge", d3.forceManyBody().strength(-100))  // Strong repulsion to scatter nodes
             .force("center", d3.forceCenter(width / 2, height / 2))
             .force("collision", d3.forceCollide().radius(90))  // Avoid node overlap
@@ -131,7 +139,6 @@ function About() {
 
         // Function to update positions on each tick of the simulation
         function ticked() {
-            const padding = 10;  // Adjust this value to increase or decrease padding
 
             link
                 .attr("x1", d => d.source.x)
@@ -140,13 +147,14 @@ function About() {
                 .attr("y2", d => d.target.y);
 
             node
-                .attr("cx", d => d.x = Math.max(padding, Math.min(d.x, width - padding)))  // Clamp x position with padding
-                .attr("cy", d => d.y = Math.max(padding, Math.min(d.y, height - padding))); // Clamp y position with padding
+                .attr("cx", d => d.x = Math.max(widthpadding, Math.min(d.x, width - widthpadding)))  // Clamp x position with padding
+                .attr("cy", d => d.y = Math.max(heightpadding, Math.min(d.y, height - heightpadding))); // Clamp y position with padding
 
             label
                 .attr("x", d => d.x)
                 .attr("y", d => d.y);
         }
+
 
         // Drag functions to allow nodes to be dragged
         function dragStarted(event, d) {
@@ -173,23 +181,22 @@ function About() {
         <div className='background'>
             <Container className="about-container" >
                 <Row >
-                    <Col md={4} className="d-flex flex-column align-items-start" style={{ padding: '6rem 0 0 0' }} >
-                        <h1>Hello!</h1>
+                    <Col md={5} className="d-flex flex-column align-items-start" >
+                        <h1>Hello there</h1>
                         <h3>
                             I am an Interaction Designer at Huawei’s R&D Human Machine Interaction lab. I research and design how digital and physical products interact with humans by implementing user interfaces, haptics, voice, text, and gesture solutions.
-                            Previously, I worked at the Royal Bank of Canada and Nokia. On the side, I am the President of the OCADU Undergraduate Technology Research Association and Co-Founder of the UX Student Association.
-                            I am reading Speculative Everything by Anthony Dunne and Fiona Raby.
+                            Previously, I worked on user experiences at the Royal Bank of Canada and Nokia. On the side, I am the President of the OCADU Undergraduate Technology Research Association and Co-Founder of the UX Student Association. I like to play electric guitar and work on mini creative coding projects in my spare time.
                         </h3>
-                        <h3>
-                            I am open to virtual or in-person chats over coffee. Feel free to reach out via LinkedIn or Email.
+                        <h3 style={{ fill: '#b4b4b4' }}>
+                            Skills : Figma, Javascript, Python, Arduino C++, ComfyUI, Sketch, Adobe Creative Suite
                         </h3>
                     </Col>
-                    <Col md={8} className="d-flex justify-content-end align-items-end" >
-                        <svg ref={svgRef} style={{ width: '100%', height: '100%', maxHeight: 'calc(100vh - 20px)' }}></svg>
+                    <Col md={7} className="d-flex justify-content-end align-items-end" >
+                        <svg ref={svgRef} style={{ width: '100%', height: '100%', maxHeight: 'calc(100vw)' }}></svg>
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </div >
     );
 }
 

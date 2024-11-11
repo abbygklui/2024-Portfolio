@@ -1,0 +1,23 @@
+.legend-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.legend-color-box {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    margin-bottom: 6px;
+}
+
+.legend-label {
+    margin-top: 6px;
+}

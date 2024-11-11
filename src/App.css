@@ -16,19 +16,34 @@
   font-weight: light;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   background: black;
   margin: 0;
   /* overflow: hidden; */
 }
+
 canvas {
   display: block;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, a, div, span, li, td, th {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+span,
+li,
+td,
+th {
   text-align: left;
-  color: #ffffff; 
+  color: #ffffff;
   font-family: 'Neue Haas Unica W1G', sans-serif;
 
 }
@@ -38,14 +53,23 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+
+  line-height: 1.6rem;
 }
 
+h4 {
+  font-size: 1rem;
+}
 
+h5 {
+  font-size: 3rem;
+  /* line-height: 1.5rem; */
+}
 
 p {
   font-size: 1rem;
@@ -58,7 +82,59 @@ p {
   line-height: 1rem;
 }
 
-h5 {
-  font-size: 1.2rem;
-line-height: 1.5rem;
+
+
+
+/*DESKTOP BREAKPOINT*/
+@media only screen and (max-width : 768px) {
+
+  .overlay-content {
+    position: static;
+    top: 0rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.0rem;
+
+    line-height: 1.2rem;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+    /* line-height: 1.5rem; */
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: #ffffff;
+  }
+
+  .label p {
+    font-size: 0.8rem;
+    color: #ffffff;
+    line-height: 1rem;
+  }
+
+
 }
