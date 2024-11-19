@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1c684161.css",
-    "main.js": "/static/js/main.ee924947.js",
+    "main.js": "/static/js/main.636e3cd1.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -11,11 +11,12 @@
     "static/media/cover-2.png": "/static/media/cover-2.bb1c9087e472f35615dd.png",
     "static/media/cover-1.png": "/static/media/cover-1.c6e7dceeecc29de6a6b9.png",
     "static/media/blink-demo.mov": "/static/media/blink-demo.9280bf156059b0580a20.mov",
+    "static/media/example2.mov": "/static/media/example2.f3bcc6d0ec0876d93584.mov",
     "static/media/demoui.mov": "/static/media/demoui.81893554bb1de9e9c7eb.mov",
     "static/media/workshop2.png": "/static/media/workshop2.caa224e95e759799bf05.png",
     "static/media/BlinkCamera-Cover.png": "/static/media/BlinkCamera-Cover.4b7c35e201f01849be4a.png",
     "static/media/additionalprocess-5.png": "/static/media/additionalprocess-5.a28d3caeb03620a39df6.png",
-    "static/media/cover.png": "/static/media/cover.340b51814249df0f235b.png",
+    "static/media/cover.png": "/static/media/cover.c6221d64654e261ba7a4.png",
     "static/media/additionalprocess-4.png": "/static/media/additionalprocess-4.b96d12f86a705da2b7fd.png",
     "static/media/final-2.png": "/static/media/final-2.c4d15d42cf68aa4ad4f7.png",
     "static/media/additionalprocess-6.png": "/static/media/additionalprocess-6.e49fbc6d1cab6d1cfe38.png",
@@ -57,7 +58,7 @@
     "static/media/legibilitytest-1.png": "/static/media/legibilitytest-1.725255ee4149c9692be3.png",
     "static/media/directoryfeedback-3.png": "/static/media/directoryfeedback-3.28508254f792c7091205.png",
     "static/media/directory-1.png": "/static/media/directory-1.df3e191497461dfa5861.png",
-    "static/media/Thinking-Cover.png": "/static/media/Thinking-Cover.600737fa46f31a8ebf1e.png",
+    "static/media/example1.png": "/static/media/example1.39838c2dd71ce6f90311.png",
     "static/media/color-3.png": "/static/media/color-3.7c9c8d686368559b7bbf.png",
     "static/media/householdcomposition.png": "/static/media/householdcomposition.d9bb91f5606fbe638c43.png",
     "static/media/history-2.png": "/static/media/history-2.49cd9e90db3801ec086c.png",
@@ -68,6 +69,7 @@
     "static/media/color-1.png": "/static/media/color-1.dc21ae67066e4201efba.png",
     "static/media/color-2.png": "/static/media/color-2.d0b41360b458841a9e56.png",
     "static/media/old-view.png": "/static/media/old-view.9d26e2f0cbb4c2bcca6c.png",
+    "static/media/Thinking-Cover.png": "/static/media/Thinking-Cover.8574dfacb4ec3cf2bb3d.png",
     "static/media/signage.png": "/static/media/signage.a14fa5a4bdfb8abb08bd.png",
     "static/media/personas.png": "/static/media/personas.5ad7879e3217186479bc.png",
     "static/media/final-oldversion.png": "/static/media/final-oldversion.dd06f7b2154d88f51628.png",
@@ -108,11 +110,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.1c684161.css.map": "/static/css/main.1c684161.css.map",
-    "main.ee924947.js.map": "/static/js/main.ee924947.js.map",
+    "main.636e3cd1.js.map": "/static/js/main.636e3cd1.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c684161.css",
-    "static/js/main.ee924947.js"
+    "static/js/main.636e3cd1.js"
   ]
 }
