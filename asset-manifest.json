@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c684161.css",
-    "main.js": "/static/js/main.702e9b8c.js",
+    "main.css": "/static/css/main.437b1a24.css",
+    "main.js": "/static/js/main.bd8927fb.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -16,6 +16,7 @@
     "static/media/workshop2.png": "/static/media/workshop2.caa224e95e759799bf05.png",
     "static/media/BlinkCamera-Cover.png": "/static/media/BlinkCamera-Cover.4b7c35e201f01849be4a.png",
     "static/media/additionalprocess-5.png": "/static/media/additionalprocess-5.a28d3caeb03620a39df6.png",
+    "static/media/example2.png": "/static/media/example2.51cd949aaa928dea18b2.png",
     "static/media/cover.png": "/static/media/cover.c6221d64654e261ba7a4.png",
     "static/media/additionalprocess-4.png": "/static/media/additionalprocess-4.b96d12f86a705da2b7fd.png",
     "static/media/final-2.png": "/static/media/final-2.c4d15d42cf68aa4ad4f7.png",
@@ -27,6 +28,8 @@
     "static/media/bags-1.png": "/static/media/bags-1.e65db7ef00dc90f27b85.png",
     "static/media/bags-2.png": "/static/media/bags-2.cb2000c4e55bca3daa03.png",
     "static/media/additionalprocess-3.png": "/static/media/additionalprocess-3.8e8a36168389bfd30f8e.png",
+    "static/media/example3.png": "/static/media/example3.f498bf81b75d4c86ff35.png",
+    "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.1df58a5487b9711ac46b.png",
     "static/media/final-4.png": "/static/media/final-4.cfd725b859557d9e2606.png",
     "static/media/quanneposter.png": "/static/media/quanneposter.90bb26e99f05afefbff3.png",
     "static/media/buildings.png": "/static/media/buildings.da72747a16629a3e7403.png",
@@ -40,8 +43,9 @@
     "static/media/sitevisit-1.png": "/static/media/sitevisit-1.69d5831671b4f2012b20.png",
     "static/media/sitevisit-2.png": "/static/media/sitevisit-2.aef6c0649c543a000bf3.png",
     "static/media/history-4.png": "/static/media/history-4.8ec2e4e1fc626909a16f.png",
-    "static/media/Quanne-Cover.png": "/static/media/Quanne-Cover.4d651a6f98e8f500e12c.png",
+    "static/media/Quanne-Cover.png": "/static/media/Quanne-Cover.451b88707d3f449fe0ef.png",
     "static/media/community-1.png": "/static/media/community-1.6ff556dbc9a716a2cb53.png",
+    "static/media/example1.png": "/static/media/example1.39838c2dd71ce6f90311.png",
     "static/media/workshop.png": "/static/media/workshop.eb92c76ae1b8371186d9.png",
     "static/media/problemverification-2.png": "/static/media/problemverification-2.43122ae38f2c47b67e69.png",
     "static/media/problemverification-1.png": "/static/media/problemverification-1.698f1068c006361c5a03.png",
@@ -58,7 +62,6 @@
     "static/media/legibilitytest-1.png": "/static/media/legibilitytest-1.725255ee4149c9692be3.png",
     "static/media/directoryfeedback-3.png": "/static/media/directoryfeedback-3.28508254f792c7091205.png",
     "static/media/directory-1.png": "/static/media/directory-1.df3e191497461dfa5861.png",
-    "static/media/example1.png": "/static/media/example1.39838c2dd71ce6f90311.png",
     "static/media/color-3.png": "/static/media/color-3.7c9c8d686368559b7bbf.png",
     "static/media/householdcomposition.png": "/static/media/householdcomposition.d9bb91f5606fbe638c43.png",
     "static/media/history-2.png": "/static/media/history-2.49cd9e90db3801ec086c.png",
@@ -109,12 +112,12 @@
     "static/media/design1exporation2.png": "/static/media/design1exporation2.b31dfbcd5dde25fc3b36.png",
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
-    "main.1c684161.css.map": "/static/css/main.1c684161.css.map",
-    "main.702e9b8c.js.map": "/static/js/main.702e9b8c.js.map",
+    "main.437b1a24.css.map": "/static/css/main.437b1a24.css.map",
+    "main.bd8927fb.js.map": "/static/js/main.bd8927fb.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c684161.css",
-    "static/js/main.702e9b8c.js"
+    "static/css/main.437b1a24.css",
+    "static/js/main.bd8927fb.js"
   ]
 }
