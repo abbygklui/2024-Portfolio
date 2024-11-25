@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.437b1a24.css",
-    "main.js": "/static/js/main.f7dca689.js",
+    "main.js": "/static/js/main.e83541e6.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -11,7 +11,7 @@
     "static/media/cover-2.png": "/static/media/cover-2.bb1c9087e472f35615dd.png",
     "static/media/cover-1.png": "/static/media/cover-1.c6e7dceeecc29de6a6b9.png",
     "static/media/blink-demo.mov": "/static/media/blink-demo.9280bf156059b0580a20.mov",
-    "static/media/example2.mov": "/static/media/example2.f3bcc6d0ec0876d93584.mov",
+    "static/media/example2.mov": "/static/media/example2.0fc4f04a6314ef9a6bad.mov",
     "static/media/demoui.mov": "/static/media/demoui.81893554bb1de9e9c7eb.mov",
     "static/media/workshop2.png": "/static/media/workshop2.caa224e95e759799bf05.png",
     "static/media/BlinkCamera-Cover.png": "/static/media/BlinkCamera-Cover.4b7c35e201f01849be4a.png",
@@ -28,7 +28,7 @@
     "static/media/bags-1.png": "/static/media/bags-1.e65db7ef00dc90f27b85.png",
     "static/media/bags-2.png": "/static/media/bags-2.cb2000c4e55bca3daa03.png",
     "static/media/additionalprocess-3.png": "/static/media/additionalprocess-3.8e8a36168389bfd30f8e.png",
-    "static/media/example3.png": "/static/media/example3.f498bf81b75d4c86ff35.png",
+    "static/media/example3.png": "/static/media/example3.7d0978c561ac45895888.png",
     "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.1df58a5487b9711ac46b.png",
     "static/media/final-4.png": "/static/media/final-4.cfd725b859557d9e2606.png",
     "static/media/quanneposter.png": "/static/media/quanneposter.90bb26e99f05afefbff3.png",
@@ -74,14 +74,18 @@
     "static/media/old-view.png": "/static/media/old-view.9d26e2f0cbb4c2bcca6c.png",
     "static/media/Thinking-Cover.png": "/static/media/Thinking-Cover.8574dfacb4ec3cf2bb3d.png",
     "static/media/signage.png": "/static/media/signage.a14fa5a4bdfb8abb08bd.png",
+    "static/media/pt-3.png": "/static/media/pt-3.59293c99a2c5c087b982.png",
     "static/media/personas.png": "/static/media/personas.5ad7879e3217186479bc.png",
     "static/media/final-oldversion.png": "/static/media/final-oldversion.dd06f7b2154d88f51628.png",
+    "static/media/pt-4.png": "/static/media/pt-4.7eb564bb5e1fbb153aad.png",
     "static/media/storecategories-2.png": "/static/media/storecategories-2.7639750f66f6deaa4fed.png",
     "static/media/icons.png": "/static/media/icons.0437d5cc86e309a29eeb.png",
     "static/media/opportunities.png": "/static/media/opportunities.40747a1e2d71633e666d.png",
     "static/media/agecomposition.png": "/static/media/agecomposition.699bcf3cea124741c601.png",
     "static/media/final-newversion.png": "/static/media/final-newversion.4b93adc2538de720daba.png",
     "static/media/design2.png": "/static/media/design2.80d3578324ef3063c998.png",
+    "static/media/pt-2.png": "/static/media/pt-2.975302d730f3f28b63a5.png",
+    "static/media/pt-1.png": "/static/media/pt-1.bf1e13ad196b5c5a5ced.png",
     "static/media/design5final.png": "/static/media/design5final.05ec18c729a7c3f5af05.png",
     "static/media/keytakeaway2.png": "/static/media/keytakeaway2.1c8ba391eb80bac06ec8.png",
     "static/media/keytakeaway1.png": "/static/media/keytakeaway1.ba2fcaf8f455da66ebe7.png",
@@ -113,11 +117,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.437b1a24.css.map": "/static/css/main.437b1a24.css.map",
-    "main.f7dca689.js.map": "/static/js/main.f7dca689.js.map",
+    "main.e83541e6.js.map": "/static/js/main.e83541e6.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.437b1a24.css",
-    "static/js/main.f7dca689.js"
+    "static/js/main.e83541e6.js"
   ]
 }
