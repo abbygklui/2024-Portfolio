@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.437b1a24.css",
-    "main.js": "/static/js/main.76b63643.js",
+    "main.js": "/static/js/main.8876df20.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -36,6 +36,7 @@
     "static/media/PangJai-Cover.png": "/static/media/PangJai-Cover.048dd72ef0eda2179ed2.png",
     "static/media/history-3.png": "/static/media/history-3.0528516170db1944abe3.png",
     "static/media/history-7.png": "/static/media/history-7.40500a0ce004127054bb.png",
+    "static/media/example11.png": "/static/media/example11.61deadb9be90e0e04dcc.png",
     "static/media/community-4.png": "/static/media/community-4.68b136926840d20643df.png",
     "static/media/history-6.png": "/static/media/history-6.8d2bc76e92405f88b34b.png",
     "static/media/history-8.png": "/static/media/history-8.c3e3c11acbc7ea400610.png",
@@ -47,6 +48,7 @@
     "static/media/community-1.png": "/static/media/community-1.6ff556dbc9a716a2cb53.png",
     "static/media/example1.png": "/static/media/example1.39838c2dd71ce6f90311.png",
     "static/media/workshop.png": "/static/media/workshop.eb92c76ae1b8371186d9.png",
+    "static/media/example12.png": "/static/media/example12.8c4a07f076a143b3500c.png",
     "static/media/problemverification-2.png": "/static/media/problemverification-2.43122ae38f2c47b67e69.png",
     "static/media/problemverification-1.png": "/static/media/problemverification-1.698f1068c006361c5a03.png",
     "static/media/problemverification-4.png": "/static/media/problemverification-4.dc3936899e9f0a8b9534.png",
@@ -66,6 +68,7 @@
     "static/media/householdcomposition.png": "/static/media/householdcomposition.d9bb91f5606fbe638c43.png",
     "static/media/history-2.png": "/static/media/history-2.49cd9e90db3801ec086c.png",
     "static/media/final-6.png": "/static/media/final-6.447c2a69ed7079b5805c.png",
+    "static/media/example13.png": "/static/media/example13.eaf8ffb06f59a0b24647.png",
     "static/media/storenames.png": "/static/media/storenames.ba2f4ecc5c7ea71974a1.png",
     "static/media/storecategories.png": "/static/media/storecategories.8c2e294320da5a0c35b8.png",
     "static/media/directory-2.png": "/static/media/directory-2.d259674a317afefc725f.png",
@@ -117,11 +120,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.437b1a24.css.map": "/static/css/main.437b1a24.css.map",
-    "main.76b63643.js.map": "/static/js/main.76b63643.js.map",
+    "main.8876df20.js.map": "/static/js/main.8876df20.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.437b1a24.css",
-    "static/js/main.76b63643.js"
+    "static/js/main.8876df20.js"
   ]
 }
