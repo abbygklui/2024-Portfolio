@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.437b1a24.css",
-    "main.js": "/static/js/main.8876df20.js",
+    "main.js": "/static/js/main.4c2cc7af.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -28,6 +28,7 @@
     "static/media/bags-1.png": "/static/media/bags-1.e65db7ef00dc90f27b85.png",
     "static/media/bags-2.png": "/static/media/bags-2.cb2000c4e55bca3daa03.png",
     "static/media/additionalprocess-3.png": "/static/media/additionalprocess-3.8e8a36168389bfd30f8e.png",
+    "static/media/ProxUI-Cover.png": "/static/media/ProxUI-Cover.06acf2bae6615ba24733.png",
     "static/media/example3.png": "/static/media/example3.7d0978c561ac45895888.png",
     "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.1df58a5487b9711ac46b.png",
     "static/media/final-4.png": "/static/media/final-4.cfd725b859557d9e2606.png",
@@ -95,12 +96,12 @@
     "static/media/floorarea.png": "/static/media/floorarea.bfc776f98d923495f33e.png",
     "static/media/design2exploration1.png": "/static/media/design2exploration1.38eedfb02d6cea750aba.png",
     "static/media/NeueHaasUnicaW1G-Bold.woff": "/static/media/NeueHaasUnicaW1G-Bold.ac8ae8ab1ac5336b1da1.woff",
+    "static/media/Tia-Cover.png": "/static/media/Tia-Cover.05c91e15423c92a6a8aa.png",
     "static/media/sitevisit-3.png": "/static/media/sitevisit-3.57f710c08aae16d0512f.png",
     "static/media/NeueHaasUnicaW1G-Light.woff": "/static/media/NeueHaasUnicaW1G-Light.4721db4e68ae49da21a1.woff",
     "static/media/design5exploration2.png": "/static/media/design5exploration2.b835326dcb20f8d0e3ba.png",
     "static/media/final-5.png": "/static/media/final-5.46170e57c30a84a4251c.png",
     "static/media/NeueHaasUnicaW1G-Regular.woff": "/static/media/NeueHaasUnicaW1G-Regular.73b9b9d544949bddece3.woff",
-    "static/media/Tia-Cover.png": "/static/media/Tia-Cover.9ec5e73cb2a4dad02d17.png",
     "static/media/comparisontest-2.png": "/static/media/comparisontest-2.82df21c98e86f29f4915.png",
     "static/media/design4exploration2.png": "/static/media/design4exploration2.5ee070434d97f2c20f8f.png",
     "static/media/design2exploration2.png": "/static/media/design2exploration2.9625cd8b378664977a07.png",
@@ -120,11 +121,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.437b1a24.css.map": "/static/css/main.437b1a24.css.map",
-    "main.8876df20.js.map": "/static/js/main.8876df20.js.map",
+    "main.4c2cc7af.js.map": "/static/js/main.4c2cc7af.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.437b1a24.css",
-    "static/js/main.8876df20.js"
+    "static/js/main.4c2cc7af.js"
   ]
 }
