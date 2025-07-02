@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.437b1a24.css",
-    "main.js": "/static/js/main.200adf9e.js",
+    "main.css": "/static/css/main.7024674f.css",
+    "main.js": "/static/js/main.d5737f8c.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -14,7 +14,6 @@
     "static/media/example2.mov": "/static/media/example2.0fc4f04a6314ef9a6bad.mov",
     "static/media/demoui.mov": "/static/media/demoui.81893554bb1de9e9c7eb.mov",
     "static/media/workshop2.png": "/static/media/workshop2.caa224e95e759799bf05.png",
-    "static/media/BlinkCamera-Cover.png": "/static/media/BlinkCamera-Cover.4b7c35e201f01849be4a.png",
     "static/media/additionalprocess-5.png": "/static/media/additionalprocess-5.a28d3caeb03620a39df6.png",
     "static/media/example2.png": "/static/media/example2.51cd949aaa928dea18b2.png",
     "static/media/cover.png": "/static/media/cover.c6221d64654e261ba7a4.png",
@@ -23,12 +22,14 @@
     "static/media/additionalprocess-6.png": "/static/media/additionalprocess-6.e49fbc6d1cab6d1cfe38.png",
     "static/media/final-3.png": "/static/media/final-3.80cb5d0847ff6acbdd39.png",
     "static/media/comparisontest-1.png": "/static/media/comparisontest-1.901d6d1955aad6492d5a.png",
+    "static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-backspace.mp4": "/static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-backspace.bec341997dc524a872bb.mp4",
     "static/media/additionalprocess-2.png": "/static/media/additionalprocess-2.35eb4477edf5f946f39d.png",
     "static/media/additionalprocess-1.png": "/static/media/additionalprocess-1.064fc76db3be6586767b.png",
     "static/media/bags-1.png": "/static/media/bags-1.e65db7ef00dc90f27b85.png",
     "static/media/bags-2.png": "/static/media/bags-2.cb2000c4e55bca3daa03.png",
     "static/media/additionalprocess-3.png": "/static/media/additionalprocess-3.8e8a36168389bfd30f8e.png",
     "static/media/ProxUI-Cover.png": "/static/media/ProxUI-Cover.06acf2bae6615ba24733.png",
+    "static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-launch.mp4": "/static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-launch.ead8ed928a660d6c77a1.mp4",
     "static/media/example3.png": "/static/media/example3.7d0978c561ac45895888.png",
     "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.1df58a5487b9711ac46b.png",
     "static/media/final-4.png": "/static/media/final-4.cfd725b859557d9e2606.png",
@@ -56,6 +57,7 @@
     "static/media/history-5.png": "/static/media/history-5.478e329522268405d11b.png",
     "static/media/community-3.png": "/static/media/community-3.a33198b14d59d18ac66e.png",
     "static/media/problemverification-5.png": "/static/media/problemverification-5.fe2dc2bab6e5e13a15f9.png",
+    "static/media/VKHuawei-Cover.png": "/static/media/VKHuawei-Cover.671181a515f8a6bd72fa.png",
     "static/media/problemverification-3.png": "/static/media/problemverification-3.06768cf54e5833eda100.png",
     "static/media/history-1.png": "/static/media/history-1.ad27d9df6db41ad3af8f.png",
     "static/media/directoryfeedback-1.png": "/static/media/directoryfeedback-1.f2e78cdd3a549c519f45.png",
@@ -95,6 +97,7 @@
     "static/media/keytakeaway1.png": "/static/media/keytakeaway1.ba2fcaf8f455da66ebe7.png",
     "static/media/floorarea.png": "/static/media/floorarea.bfc776f98d923495f33e.png",
     "static/media/design2exploration1.png": "/static/media/design2exploration1.38eedfb02d6cea750aba.png",
+    "static/media/NeueHaasUnicaW1G-Medium.woff": "/static/media/NeueHaasUnicaW1G-Medium.772051461597f5d5af17.woff",
     "static/media/NeueHaasUnicaW1G-Bold.woff": "/static/media/NeueHaasUnicaW1G-Bold.ac8ae8ab1ac5336b1da1.woff",
     "static/media/Tia-Cover.png": "/static/media/Tia-Cover.05c91e15423c92a6a8aa.png",
     "static/media/sitevisit-3.png": "/static/media/sitevisit-3.57f710c08aae16d0512f.png",
@@ -106,6 +109,7 @@
     "static/media/design4exploration2.png": "/static/media/design4exploration2.5ee070434d97f2c20f8f.png",
     "static/media/design2exploration2.png": "/static/media/design2exploration2.9625cd8b378664977a07.png",
     "static/media/keytakeaway3.png": "/static/media/keytakeaway3.b04fab84c9526ba6179f.png",
+    "static/media/closeup.webp": "/static/media/closeup.3a2f209f2e0b5f1ad470.webp",
     "static/media/design4exploration1.png": "/static/media/design4exploration1.e00a49f978c94932f1d6.png",
     "static/media/design3closeicon.png": "/static/media/design3closeicon.32bf7060d85871cccf16.png",
     "static/media/design3final.png": "/static/media/design3final.96fd616ad7f69375f7b1.png",
@@ -120,12 +124,12 @@
     "static/media/design1exporation2.png": "/static/media/design1exporation2.b31dfbcd5dde25fc3b36.png",
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
-    "main.437b1a24.css.map": "/static/css/main.437b1a24.css.map",
-    "main.200adf9e.js.map": "/static/js/main.200adf9e.js.map",
+    "main.7024674f.css.map": "/static/css/main.7024674f.css.map",
+    "main.d5737f8c.js.map": "/static/js/main.d5737f8c.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.437b1a24.css",
-    "static/js/main.200adf9e.js"
+    "static/css/main.7024674f.css",
+    "static/js/main.d5737f8c.js"
   ]
 }
