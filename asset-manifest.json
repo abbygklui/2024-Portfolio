@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6707c86f.css",
-    "main.js": "/static/js/main.f7f042ed.js",
+    "main.js": "/static/js/main.edc55725.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -31,7 +31,6 @@
     "static/media/ProxUI-Cover.png": "/static/media/ProxUI-Cover.06acf2bae6615ba24733.png",
     "static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-launch.mp4": "/static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-launch.ead8ed928a660d6c77a1.mp4",
     "static/media/example3.png": "/static/media/example3.7d0978c561ac45895888.png",
-    "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.1df58a5487b9711ac46b.png",
     "static/media/final-4.png": "/static/media/final-4.cfd725b859557d9e2606.png",
     "static/media/quanneposter.png": "/static/media/quanneposter.90bb26e99f05afefbff3.png",
     "static/media/buildings.png": "/static/media/buildings.da72747a16629a3e7403.png",
@@ -61,6 +60,7 @@
     "static/media/problemverification-3.png": "/static/media/problemverification-3.06768cf54e5833eda100.png",
     "static/media/history-1.png": "/static/media/history-1.ad27d9df6db41ad3af8f.png",
     "static/media/directoryfeedback-1.png": "/static/media/directoryfeedback-1.f2e78cdd3a549c519f45.png",
+    "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.97fc0360b9b636e9681b.png",
     "static/media/directoryfeedback-2.png": "/static/media/directoryfeedback-2.5fcde3eba99f4ceacb5d.png",
     "static/media/legibilitytest-2.png": "/static/media/legibilitytest-2.a02ad1d2ce8350cda276.png",
     "static/media/final-7.png": "/static/media/final-7.ddf31b835a437d56d113.png",
@@ -126,11 +126,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.6707c86f.css.map": "/static/css/main.6707c86f.css.map",
-    "main.f7f042ed.js.map": "/static/js/main.f7f042ed.js.map",
+    "main.edc55725.js.map": "/static/js/main.edc55725.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6707c86f.css",
-    "static/js/main.f7f042ed.js"
+    "static/js/main.edc55725.js"
   ]
 }
