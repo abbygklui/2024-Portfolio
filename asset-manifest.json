@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.316ad2d5.css",
-    "main.js": "/static/js/main.1e8521dd.js",
+    "main.js": "/static/js/main.5f79577f.js",
     "static/js/488.96fb4840.chunk.js": "/static/js/488.96fb4840.chunk.js",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -86,6 +86,7 @@
     "static/media/personas.png": "/static/media/personas.5ad7879e3217186479bc.png",
     "static/media/pt-4.png": "/static/media/pt-4.7eb564bb5e1fbb153aad.png",
     "static/media/storecategories-2.png": "/static/media/storecategories-2.7639750f66f6deaa4fed.png",
+    "static/media/design2exploration1.png": "/static/media/design2exploration1.c1b292a4667d738adf3b.png",
     "static/media/icons.png": "/static/media/icons.0437d5cc86e309a29eeb.png",
     "static/media/HealTheWebA-Regular.otf": "/static/media/HealTheWebA-Regular.307de18e61eabffd18e3.otf",
     "static/media/opportunities.png": "/static/media/opportunities.40747a1e2d71633e666d.png",
@@ -98,7 +99,6 @@
     "static/media/keytakeaway2.png": "/static/media/keytakeaway2.45da072fcc416c1e1d96.png",
     "static/media/keytakeaway1.png": "/static/media/keytakeaway1.88e4a614596dd704e5c8.png",
     "static/media/floorarea.png": "/static/media/floorarea.bfc776f98d923495f33e.png",
-    "static/media/design2exploration1.png": "/static/media/design2exploration1.38eedfb02d6cea750aba.png",
     "static/media/NeueHaasUnicaW1G-Medium.woff": "/static/media/NeueHaasUnicaW1G-Medium.772051461597f5d5af17.woff",
     "static/media/Tia-Cover.png": "/static/media/Tia-Cover.cb641d48b9821e17ea13.png",
     "static/media/NeueHaasUnicaW1G-Bold.woff": "/static/media/NeueHaasUnicaW1G-Bold.ac8ae8ab1ac5336b1da1.woff",
@@ -112,25 +112,26 @@
     "static/media/design2exploration2.png": "/static/media/design2exploration2.9625cd8b378664977a07.png",
     "static/media/closeup.webp": "/static/media/closeup.3a2f209f2e0b5f1ad470.webp",
     "static/media/design4exploration1.png": "/static/media/design4exploration1.e00a49f978c94932f1d6.png",
-    "static/media/design3closeicon.png": "/static/media/design3closeicon.32bf7060d85871cccf16.png",
     "static/media/design3final.png": "/static/media/design3final.96fd616ad7f69375f7b1.png",
     "static/media/ToolCreationFlow.png": "/static/media/ToolCreationFlow.796dba2256a97f397894.png",
-    "static/media/design3.png": "/static/media/design3.e2c82de5c34da3df7e33.png",
-    "static/media/design3refreshicon.png": "/static/media/design3refreshicon.faef2f2265d1b00792ba.png",
+    "static/media/design3closelinkwindowold.png": "/static/media/design3closelinkwindowold.179baaaf329f32fa4da3.png",
     "static/media/design5exploration1.png": "/static/media/design5exploration1.a82332ce4b9666ec88a3.png",
+    "static/media/design3faqold.png": "/static/media/design3faqold.cb3b7a2a2f2936cb2442.png",
     "static/media/CreativeFlow.png": "/static/media/CreativeFlow.8b155e4274dfbebbb423.png",
     "static/media/keytakeaway4.png": "/static/media/keytakeaway4.56e8fc8aa410c40d9159.png",
+    "static/media/design3closelinkwindownew.png": "/static/media/design3closelinkwindownew.e94d2f58affeac9d61d3.png",
     "static/media/cover2.png": "/static/media/cover2.3693f61f59609903a363.png",
     "static/media/signagemockup-1.png": "/static/media/signagemockup-1.2de05ef28786e3b115f3.png",
+    "static/media/design3closechatwindowold.png": "/static/media/design3closechatwindowold.8dad2fe0353bad973dbf.png",
     "static/media/design1exporation2.png": "/static/media/design1exporation2.b31dfbcd5dde25fc3b36.png",
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.316ad2d5.css.map": "/static/css/main.316ad2d5.css.map",
-    "main.1e8521dd.js.map": "/static/js/main.1e8521dd.js.map",
+    "main.5f79577f.js.map": "/static/js/main.5f79577f.js.map",
     "488.96fb4840.chunk.js.map": "/static/js/488.96fb4840.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.316ad2d5.css",
-    "static/js/main.1e8521dd.js"
+    "static/js/main.5f79577f.js"
   ]
 }
