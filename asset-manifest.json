@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a06b2578.css",
-    "main.js": "/static/js/main.8db66526.js",
+    "main.css": "/static/css/main.8dfafdb9.css",
+    "main.js": "/static/js/main.4300b549.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/demo.mp4": "/static/media/demo.f172a1ae0f3fc1c0ff73.mp4",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
@@ -15,6 +15,7 @@
     "static/media/example2.mov": "/static/media/example2.0fc4f04a6314ef9a6bad.mov",
     "static/media/demoui.mov": "/static/media/demoui.81893554bb1de9e9c7eb.mov",
     "static/media/workshop2.png": "/static/media/workshop2.caa224e95e759799bf05.png",
+    "static/media/closeup.png": "/static/media/closeup.4dc228fb7337b8cdda4a.png",
     "static/media/backspace-delete-3.png": "/static/media/backspace-delete-3.a181208428187ca7f25a.png",
     "static/media/additionalprocess-5.png": "/static/media/additionalprocess-5.a28d3caeb03620a39df6.png",
     "static/media/backspace-delete-2.png": "/static/media/backspace-delete-2.7bf8ce80e0dad292bbff.png",
@@ -56,10 +57,11 @@
     "static/media/history-4.png": "/static/media/history-4.8ec2e4e1fc626909a16f.png",
     "static/media/Quanne-Cover.png": "/static/media/Quanne-Cover.451b88707d3f449fe0ef.png",
     "static/media/community-1.png": "/static/media/community-1.6ff556dbc9a716a2cb53.png",
-    "static/media/comparison-standard-layout.png": "/static/media/comparison-standard-layout.962f6089914bab2107cd.png",
+    "static/media/comparison-standard-layout.png": "/static/media/comparison-standard-layout.a442d1ab798caa3bd216.png",
     "static/media/example1.png": "/static/media/example1.39838c2dd71ce6f90311.png",
     "static/media/workshop.png": "/static/media/workshop.eb92c76ae1b8371186d9.png",
     "static/media/example12.png": "/static/media/example12.8c4a07f076a143b3500c.png",
+    "static/media/huawei-typing-2.mov": "/static/media/huawei-typing-2.9a020e9dd569f8d3b96e.mov",
     "static/media/problemverification-2.png": "/static/media/problemverification-2.43122ae38f2c47b67e69.png",
     "static/media/problemverification-1.png": "/static/media/problemverification-1.698f1068c006361c5a03.png",
     "static/media/problemverification-4.png": "/static/media/problemverification-4.dc3936899e9f0a8b9534.png",
@@ -73,7 +75,7 @@
     "static/media/directoryfeedback-1.png": "/static/media/directoryfeedback-1.f2e78cdd3a549c519f45.png",
     "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.97fc0360b9b636e9681b.png",
     "static/media/directoryfeedback-2.png": "/static/media/directoryfeedback-2.5fcde3eba99f4ceacb5d.png",
-    "static/media/width-dimensions.png": "/static/media/width-dimensions.50a64fee13c7cf9d531c.png",
+    "static/media/width-dimensions.png": "/static/media/width-dimensions.8ecd908600c9dcbc7716.png",
     "static/media/legibilitytest-2.png": "/static/media/legibilitytest-2.a02ad1d2ce8350cda276.png",
     "static/media/final-7.png": "/static/media/final-7.ddf31b835a437d56d113.png",
     "static/media/legibilitytest-1.png": "/static/media/legibilitytest-1.725255ee4149c9692be3.png",
@@ -125,7 +127,6 @@
     "static/media/comparisontest-2.png": "/static/media/comparisontest-2.82df21c98e86f29f4915.png",
     "static/media/design4exploration2.png": "/static/media/design4exploration2.5ee070434d97f2c20f8f.png",
     "static/media/design2exploration2.png": "/static/media/design2exploration2.9625cd8b378664977a07.png",
-    "static/media/closeup.webp": "/static/media/closeup.3a2f209f2e0b5f1ad470.webp",
     "static/media/design4exploration1.png": "/static/media/design4exploration1.e00a49f978c94932f1d6.png",
     "static/media/ToolCreationFlow.png": "/static/media/ToolCreationFlow.796dba2256a97f397894.png",
     "static/media/design3closelinkwindowold.png": "/static/media/design3closelinkwindowold.6f3222fac2ad5c3d24f9.png",
@@ -140,12 +141,12 @@
     "static/media/design1exporation2.png": "/static/media/design1exporation2.b31dfbcd5dde25fc3b36.png",
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
-    "main.a06b2578.css.map": "/static/css/main.a06b2578.css.map",
-    "main.8db66526.js.map": "/static/js/main.8db66526.js.map",
+    "main.8dfafdb9.css.map": "/static/css/main.8dfafdb9.css.map",
+    "main.4300b549.js.map": "/static/js/main.4300b549.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a06b2578.css",
-    "static/js/main.8db66526.js"
+    "static/css/main.8dfafdb9.css",
+    "static/js/main.4300b549.js"
   ]
 }
