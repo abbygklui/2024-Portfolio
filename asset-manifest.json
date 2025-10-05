@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8dfafdb9.css",
-    "main.js": "/static/js/main.4300b549.js",
+    "main.js": "/static/js/main.1eb0ec36.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/demo.mp4": "/static/media/demo.f172a1ae0f3fc1c0ff73.mp4",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
@@ -31,16 +31,18 @@
     "static/media/comparisontest-1.png": "/static/media/comparisontest-1.901d6d1955aad6492d5a.png",
     "static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-backspace.mp4": "/static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-backspace.bec341997dc524a872bb.mp4",
     "static/media/comparison-reduced-keys.png": "/static/media/comparison-reduced-keys.726db74b668db83b4e52.png",
+    "static/media/width-dimensions.png": "/static/media/width-dimensions.512b79b1d8af08f982b6.png",
     "static/media/additionalprocess-2.png": "/static/media/additionalprocess-2.35eb4477edf5f946f39d.png",
     "static/media/additionalprocess-1.png": "/static/media/additionalprocess-1.064fc76db3be6586767b.png",
-    "static/media/shrunk-key-sizes.png": "/static/media/shrunk-key-sizes.4950a7ab8c235158ede9.png",
     "static/media/bags-1.png": "/static/media/bags-1.e65db7ef00dc90f27b85.png",
+    "static/media/shrunk-key-sizes.png": "/static/media/shrunk-key-sizes.6343956c0e46e57555c5.png",
     "static/media/bags-2.png": "/static/media/bags-2.cb2000c4e55bca3daa03.png",
     "static/media/additionalprocess-3.png": "/static/media/additionalprocess-3.8e8a36168389bfd30f8e.png",
     "static/media/f-j-keys.png": "/static/media/f-j-keys.b8034e18ad87b6560299.png",
     "static/media/ProxUI-Cover.png": "/static/media/ProxUI-Cover.06acf2bae6615ba24733.png",
     "static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-launch.mp4": "/static/media/huawei-matebook-fold-ultimate-design-virtual-keyboard-launch.ead8ed928a660d6c77a1.mp4",
     "static/media/example3.png": "/static/media/example3.7d0978c561ac45895888.png",
+    "static/media/shortkey-example.png": "/static/media/shortkey-example.8e965765c216e10928f1.png",
     "static/media/final-4.png": "/static/media/final-4.cfd725b859557d9e2606.png",
     "static/media/quanneposter.png": "/static/media/quanneposter.90bb26e99f05afefbff3.png",
     "static/media/buildings.png": "/static/media/buildings.da72747a16629a3e7403.png",
@@ -75,7 +77,6 @@
     "static/media/directoryfeedback-1.png": "/static/media/directoryfeedback-1.f2e78cdd3a549c519f45.png",
     "static/media/Nokia-Cover.png": "/static/media/Nokia-Cover.97fc0360b9b636e9681b.png",
     "static/media/directoryfeedback-2.png": "/static/media/directoryfeedback-2.5fcde3eba99f4ceacb5d.png",
-    "static/media/width-dimensions.png": "/static/media/width-dimensions.8ecd908600c9dcbc7716.png",
     "static/media/legibilitytest-2.png": "/static/media/legibilitytest-2.a02ad1d2ce8350cda276.png",
     "static/media/final-7.png": "/static/media/final-7.ddf31b835a437d56d113.png",
     "static/media/legibilitytest-1.png": "/static/media/legibilitytest-1.725255ee4149c9692be3.png",
@@ -142,11 +143,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.8dfafdb9.css.map": "/static/css/main.8dfafdb9.css.map",
-    "main.4300b549.js.map": "/static/js/main.4300b549.js.map",
+    "main.1eb0ec36.js.map": "/static/js/main.1eb0ec36.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8dfafdb9.css",
-    "static/js/main.4300b549.js"
+    "static/js/main.1eb0ec36.js"
   ]
 }
