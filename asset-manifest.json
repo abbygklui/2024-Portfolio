@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.8dfafdb9.css",
-    "main.js": "/static/js/main.51c006ff.js",
+    "main.js": "/static/js/main.ddfac116.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
-    "static/media/demo.mp4": "/static/media/demo.f172a1ae0f3fc1c0ff73.mp4",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
+    "static/media/demo-withoutthemes.mp4": "/static/media/demo-withoutthemes.27045664e1e63b5e3647.mp4",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
     "static/media/final-1.png": "/static/media/final-1.fe5d866e6b50645c912e.png",
     "static/media/ProxUI-Cover.mov": "/static/media/ProxUI-Cover.4bf275173a212c670eb2.mov",
@@ -86,6 +86,7 @@
     "static/media/color-3.png": "/static/media/color-3.7c9c8d686368559b7bbf.png",
     "static/media/householdcomposition.png": "/static/media/householdcomposition.d9bb91f5606fbe638c43.png",
     "static/media/history-2.png": "/static/media/history-2.49cd9e90db3801ec086c.png",
+    "static/media/frequency-of-keyboard-glances-2.png": "/static/media/frequency-of-keyboard-glances-2.e157bab421aef54ce86b.png",
     "static/media/final-oldversion.png": "/static/media/final-oldversion.efa0266d471be31ab901.png",
     "static/media/final-6.png": "/static/media/final-6.447c2a69ed7079b5805c.png",
     "static/media/example13.png": "/static/media/example13.eaf8ffb06f59a0b24647.png",
@@ -144,11 +145,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.8dfafdb9.css.map": "/static/css/main.8dfafdb9.css.map",
-    "main.51c006ff.js.map": "/static/js/main.51c006ff.js.map",
+    "main.ddfac116.js.map": "/static/js/main.ddfac116.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8dfafdb9.css",
-    "static/js/main.51c006ff.js"
+    "static/js/main.ddfac116.js"
   ]
 }
