@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0c377a46.css",
-    "main.js": "/static/js/main.33338728.js",
+    "main.js": "/static/js/main.63625736.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
+    "static/media/Keyboard-ColorChange.mp4": "/static/media/Keyboard-ColorChange.cc3f14029c865e209263.mp4",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/demo-withoutthemes.mp4": "/static/media/demo-withoutthemes.27045664e1e63b5e3647.mp4",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -145,11 +146,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.0c377a46.css.map": "/static/css/main.0c377a46.css.map",
-    "main.33338728.js.map": "/static/js/main.33338728.js.map",
+    "main.63625736.js.map": "/static/js/main.63625736.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c377a46.css",
-    "static/js/main.33338728.js"
+    "static/js/main.63625736.js"
   ]
 }
