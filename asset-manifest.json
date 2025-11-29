@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.0c377a46.css",
-    "main.js": "/static/js/main.63625736.js",
+    "main.js": "/static/js/main.ec395a3e.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
-    "static/media/Keyboard-ColorChange.mp4": "/static/media/Keyboard-ColorChange.cc3f14029c865e209263.mp4",
+    "static/media/Keyboard-ColorChange.mov": "/static/media/Keyboard-ColorChange.e1b6eaeec5569a9bac96.mov",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
     "static/media/demo-withoutthemes.mp4": "/static/media/demo-withoutthemes.27045664e1e63b5e3647.mp4",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
@@ -17,10 +17,7 @@
     "static/media/demoui.mov": "/static/media/demoui.81893554bb1de9e9c7eb.mov",
     "static/media/workshop2.png": "/static/media/workshop2.caa224e95e759799bf05.png",
     "static/media/closeup.png": "/static/media/closeup.4dc228fb7337b8cdda4a.png",
-    "static/media/backspace-delete-3.png": "/static/media/backspace-delete-3.a181208428187ca7f25a.png",
     "static/media/additionalprocess-5.png": "/static/media/additionalprocess-5.a28d3caeb03620a39df6.png",
-    "static/media/backspace-delete-2.png": "/static/media/backspace-delete-2.7bf8ce80e0dad292bbff.png",
-    "static/media/backspace-delete-1.png": "/static/media/backspace-delete-1.b1607bf3c4c02032d545.png",
     "static/media/example2.png": "/static/media/example2.51cd949aaa928dea18b2.png",
     "static/media/cover.png": "/static/media/cover.c6221d64654e261ba7a4.png",
     "static/media/shortkey-2.png": "/static/media/shortkey-2.b546eeae5c070092dc92.png",
@@ -146,11 +143,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.0c377a46.css.map": "/static/css/main.0c377a46.css.map",
-    "main.63625736.js.map": "/static/js/main.63625736.js.map",
+    "main.ec395a3e.js.map": "/static/js/main.ec395a3e.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c377a46.css",
-    "static/js/main.63625736.js"
+    "static/js/main.ec395a3e.js"
   ]
 }
