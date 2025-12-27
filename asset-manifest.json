@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.0c377a46.css",
-    "main.js": "/static/js/main.2782bab9.js",
+    "main.js": "/static/js/main.b8724b14.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/Keyboard-ColorChange.mov": "/static/media/Keyboard-ColorChange.e1b6eaeec5569a9bac96.mov",
+    "static/media/video-final.mp4": "/static/media/video-final.6d2a8d800e18193520c8.mp4",
     "static/media/lockscreen.mov": "/static/media/lockscreen.c25ecbd8bd6221fd598e.mov",
-    "static/media/demo-withoutthemes.mp4": "/static/media/demo-withoutthemes.27045664e1e63b5e3647.mp4",
     "static/media/article.mov": "/static/media/article.bc2803d8041d41d8e524.mov",
     "static/media/final-1.png": "/static/media/final-1.fe5d866e6b50645c912e.png",
     "static/media/ProxUI-Cover.mov": "/static/media/ProxUI-Cover.4bf275173a212c670eb2.mov",
@@ -143,11 +143,11 @@
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
     "main.0c377a46.css.map": "/static/css/main.0c377a46.css.map",
-    "main.2782bab9.js.map": "/static/js/main.2782bab9.js.map",
+    "main.b8724b14.js.map": "/static/js/main.b8724b14.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c377a46.css",
-    "static/js/main.2782bab9.js"
+    "static/js/main.b8724b14.js"
   ]
 }
