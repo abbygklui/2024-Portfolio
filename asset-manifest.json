@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.278d15c6.css",
-    "main.js": "/static/js/main.d2dc90b4.js",
+    "main.css": "/static/css/main.932caa58.css",
+    "main.js": "/static/js/main.c8046df0.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/Keyboard-ColorChange.mov": "/static/media/Keyboard-ColorChange.e1b6eaeec5569a9bac96.mov",
     "static/media/video-final.mp4": "/static/media/video-final.6d2a8d800e18193520c8.mp4",
@@ -142,12 +142,12 @@
     "static/media/design1exporation2.png": "/static/media/design1exporation2.b31dfbcd5dde25fc3b36.png",
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
-    "main.278d15c6.css.map": "/static/css/main.278d15c6.css.map",
-    "main.d2dc90b4.js.map": "/static/js/main.d2dc90b4.js.map",
+    "main.932caa58.css.map": "/static/css/main.932caa58.css.map",
+    "main.c8046df0.js.map": "/static/js/main.c8046df0.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.278d15c6.css",
-    "static/js/main.d2dc90b4.js"
+    "static/css/main.932caa58.css",
+    "static/js/main.c8046df0.js"
   ]
 }
