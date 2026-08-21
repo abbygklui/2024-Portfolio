@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.932caa58.css",
-    "main.js": "/static/js/main.c8046df0.js",
+    "main.css": "/static/css/main.139c2c14.css",
+    "main.js": "/static/js/main.c247eea1.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/Keyboard-ColorChange.mov": "/static/media/Keyboard-ColorChange.e1b6eaeec5569a9bac96.mov",
     "static/media/video-final.mp4": "/static/media/video-final.6d2a8d800e18193520c8.mp4",
@@ -90,6 +90,7 @@
     "static/media/example13.png": "/static/media/example13.eaf8ffb06f59a0b24647.png",
     "static/media/storenames.png": "/static/media/storenames.ba2f4ecc5c7ea71974a1.png",
     "static/media/storecategories.png": "/static/media/storecategories.8c2e294320da5a0c35b8.png",
+    "static/media/colorsolution1-2.png": "/static/media/colorsolution1-2.97340560df7cf0c09d4f.png",
     "static/media/directory-2.png": "/static/media/directory-2.d259674a317afefc725f.png",
     "static/media/color-1.png": "/static/media/color-1.dc21ae67066e4201efba.png",
     "static/media/color-2.png": "/static/media/color-2.d0b41360b458841a9e56.png",
@@ -97,6 +98,8 @@
     "static/media/Thinking-Cover.png": "/static/media/Thinking-Cover.8574dfacb4ec3cf2bb3d.png",
     "static/media/final-newversion.png": "/static/media/final-newversion.b2d18946bfc3cae1b299.png",
     "static/media/signage.png": "/static/media/signage.a14fa5a4bdfb8abb08bd.png",
+    "static/media/colorsolution2-1.png": "/static/media/colorsolution2-1.68933165f2efbd53e7d4.png",
+    "static/media/colorsolution2-2.png": "/static/media/colorsolution2-2.5b9b6b3edbddf379ee88.png",
     "static/media/pt-3.png": "/static/media/pt-3.59293c99a2c5c087b982.png",
     "static/media/personas.png": "/static/media/personas.5ad7879e3217186479bc.png",
     "static/media/pt-4.png": "/static/media/pt-4.7eb564bb5e1fbb153aad.png",
@@ -125,6 +128,7 @@
     "static/media/design5exploration2.png": "/static/media/design5exploration2.b835326dcb20f8d0e3ba.png",
     "static/media/final-5.png": "/static/media/final-5.46170e57c30a84a4251c.png",
     "static/media/NeueHaasUnicaW1G-Regular.woff": "/static/media/NeueHaasUnicaW1G-Regular.73b9b9d544949bddece3.woff",
+    "static/media/colorsolution1-1.png": "/static/media/colorsolution1-1.331383afca6b032d784e.png",
     "static/media/comparisontest-2.png": "/static/media/comparisontest-2.82df21c98e86f29f4915.png",
     "static/media/design4exploration2.png": "/static/media/design4exploration2.5ee070434d97f2c20f8f.png",
     "static/media/design2exploration2.png": "/static/media/design2exploration2.9625cd8b378664977a07.png",
@@ -142,12 +146,12 @@
     "static/media/design1exporation2.png": "/static/media/design1exporation2.b31dfbcd5dde25fc3b36.png",
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
-    "main.932caa58.css.map": "/static/css/main.932caa58.css.map",
-    "main.c8046df0.js.map": "/static/js/main.c8046df0.js.map",
+    "main.139c2c14.css.map": "/static/css/main.139c2c14.css.map",
+    "main.c247eea1.js.map": "/static/js/main.c247eea1.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.932caa58.css",
-    "static/js/main.c8046df0.js"
+    "static/css/main.139c2c14.css",
+    "static/js/main.c247eea1.js"
   ]
 }
