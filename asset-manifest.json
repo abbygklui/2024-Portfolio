@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.139c2c14.css",
+    "main.css": "/static/css/main.6fc8a1cd.css",
     "main.js": "/static/js/main.c247eea1.js",
     "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
     "static/media/Keyboard-ColorChange.mov": "/static/media/Keyboard-ColorChange.e1b6eaeec5569a9bac96.mov",
@@ -146,12 +146,12 @@
     "static/media/design1exporation2.png": "/static/media/design1exporation2.b31dfbcd5dde25fc3b36.png",
     "static/media/signagemockup-2.png": "/static/media/signagemockup-2.ba80d2b040f58d9914f0.png",
     "index.html": "/index.html",
-    "main.139c2c14.css.map": "/static/css/main.139c2c14.css.map",
+    "main.6fc8a1cd.css.map": "/static/css/main.6fc8a1cd.css.map",
     "main.c247eea1.js.map": "/static/js/main.c247eea1.js.map",
     "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.139c2c14.css",
+    "static/css/main.6fc8a1cd.css",
     "static/js/main.c247eea1.js"
   ]
 }
